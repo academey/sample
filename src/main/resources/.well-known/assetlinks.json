@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.upside.catsndogs",
+      "sha256_cert_fingerprints": [
+        "47:5F:69:68:92:4C:D3:4F:07:E4:C9:49:8F:F0:30:F5:C8:C4:E1:8B:5D:57:20:9A:DA:44:6F:7C:E6:DC:C6:B4"
+      ]
+    }
+  }
+]

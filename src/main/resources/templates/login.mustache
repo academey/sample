@@ -1,0 +1,8 @@
+<button onclick="popupKakaoLogin()">Social Login</button>
+{{loginUrl}}
+<script>
+  function popupKakaoLogin() {
+    // {{loginUrl}} 이 아니라 {{{loginUrl}}} 이어야 안 깨진다.
+    window.open('{{{loginUrl}}}', 'popupKakaoLogin', 'width=700,height=500,scrollbars=0,toolbar=0,menubar=no')
+  }
+</script>

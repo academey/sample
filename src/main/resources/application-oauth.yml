@@ -1,0 +1,22 @@
+kakao:
+  client_id: secret
+  url:
+    login: https://kauth.kakao.com/oauth/authorize
+    token: https://kauth.kakao.com/oauth/token
+    profile: https://kapi.kakao.com/v2/user/me
+
+google:
+  client_id: secret
+  client_secret: secret
+  url:
+    login: https://accounts.google.com/o/oauth2/v2/auth
+    token: https://oauth2.googleapis.com/token
+    profile: https://openidconnect.googleapis.com/v1/userinfo
+
+apple:
+  client_id: secret
+  url:
+    login: https://appleid.apple.com/auth/authorize
+    token: https://appleid.apple.com/auth/token
+    profile: https://appleid.apple.com/auth/
+    public_key: https://appleid.apple.com/auth/keys
